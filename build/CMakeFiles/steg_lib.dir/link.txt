@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsteg_lib.a CMakeFiles/steg_lib.dir/src/bmp.c.o CMakeFiles/steg_lib.dir/src/steg.c.o
+/usr/bin/ranlib libsteg_lib.a

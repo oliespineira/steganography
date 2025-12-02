@@ -1,0 +1,51 @@
+Start testing: Dec 02 16:09 CET
+----------------------------------------------------------
+1/1 Testing: steg_tests
+1/1 Test: steg_tests
+Command: "/Users/oliviaespineiraflores/Desktop/programming/project/build/tests/run_all_tests"
+Directory: /Users/oliviaespineiraflores/Desktop/programming/project/build/tests
+"steg_tests" start time: Dec 02 16:09 CET
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250808-4780-aa0gxy/googletest-1.17.0/googletest/src/gtest_main.cc
+[==========] Running 3 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from StegBitTest
+[ RUN      ] StegBitTest.LsbPackingSimulation
+[       OK ] StegBitTest.LsbPackingSimulation (0 ms)
+[----------] 1 test from StegBitTest (0 ms total)
+
+[----------] 2 tests from StegIntegrationTest
+[ RUN      ] StegIntegrationTest.EncodeDecodeRoundTrip
+steg_decode_message: capacity insufficient for stored length
+/Users/oliviaespineiraflores/Desktop/programming/project/tests/test_steg.cpp:92: Failure
+Expected equality of these values:
+  rc
+    Which is: 1
+  0
+
+/Users/oliviaespineiraflores/Desktop/programming/project/tests/test_steg.cpp:93: Failure
+Expected: (decoded) != (nullptr), actual: NULL vs (nullptr)
+
+[  FAILED  ] StegIntegrationTest.EncodeDecodeRoundTrip (0 ms)
+[ RUN      ] StegIntegrationTest.TooLargeMessageFails
+steg_encode_message: capacity insufficient (have 108 bits, need 832 bits)
+[       OK ] StegIntegrationTest.TooLargeMessageFails (0 ms)
+[----------] 2 tests from StegIntegrationTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] StegIntegrationTest.EncodeDecodeRoundTrip
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Failed.
+"steg_tests" end time: Dec 02 16:09 CET
+"steg_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 02 16:09 CET

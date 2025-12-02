@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/oliviaespineiraflores/Desktop/programming/project/build/cmake_install.cmake",
+		"/Users/oliviaespineiraflores/Desktop/programming/project/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

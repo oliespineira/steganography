@@ -1,0 +1,9 @@
+/Users/oliviaespineiraflores/Desktop/programming/project/build/CMakeFiles/steg_lib.dir
+/Users/oliviaespineiraflores/Desktop/programming/project/build/CMakeFiles/steg_cli.dir
+/Users/oliviaespineiraflores/Desktop/programming/project/build/CMakeFiles/test.dir
+/Users/oliviaespineiraflores/Desktop/programming/project/build/CMakeFiles/edit_cache.dir
+/Users/oliviaespineiraflores/Desktop/programming/project/build/CMakeFiles/rebuild_cache.dir
+/Users/oliviaespineiraflores/Desktop/programming/project/build/tests/CMakeFiles/run_all_tests.dir
+/Users/oliviaespineiraflores/Desktop/programming/project/build/tests/CMakeFiles/test.dir
+/Users/oliviaespineiraflores/Desktop/programming/project/build/tests/CMakeFiles/edit_cache.dir
+/Users/oliviaespineiraflores/Desktop/programming/project/build/tests/CMakeFiles/rebuild_cache.dir
